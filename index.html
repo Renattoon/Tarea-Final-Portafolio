@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renato Avila - Portafolio</title>
+    <!--ICONOS DE REMIXICON-->
+    <link
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <!--ENLACE A CSS-->
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+
+    <!--TIPOGRAFIA-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header__profile">
+
+            <div class="header__img">
+                <img src="assets/img/perfil.png" alt="" class="header__img--img">
+            </div>
+
+            <div class="header__info">
+
+                <div class="header__info--name">
+                    <h3>Renato Avila</h3>
+                    <p>Diseñador y Desarrollador web</p>
+                </div>
+
+                <ul class="header__info--social">
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=973999083">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.outlook.com/j.avila41@alumnos.santotomas.cl">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/renattoon">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.github.com/Renattoon">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/@renaaz9650">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="header__cv">
+                    <a 
+                        href="assets/docs/Presupuesto Renatin.pdf" 
+                        download 
+                        class="button header__cv--cv"
+                    >
+                        Descargar CV
+                        <i class="ri-download-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__title">
+            <h1>Portafolio Diseño Web</h1>
+            <h2>La presentacion de algunos de mis trabajos</h2>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <input type="radio" name="categoria" id="todos" value="todos">
+        <input type="radio" name="categoria" id="diseno-ui" value="diseno-ui">
+        <input type="radio" name="categoria" id="maquetado-web" value="maquetado-web">
+        <input type="radio" name="categoria" id="frontend" value="frontend">
+        <input type="radio" name="categoria" id="motion" value="motion">
+
+        <div class="portfolio-filters">
+            <label for="todos">Todos</label>
+            <label for="diseno-ui">Diseño UI</label>
+            <label for="maquetado-web">Maquetado Web</label>
+            <label for="frontend">Frontend</label>
+            <label for="motion">Motion Graphics</label>
+        </div>
+
+        <div class="portfolio">
+
+            <div data-category="diseno-ui" class="portfolio__card">
+
+                <div class="portfolio__featured">
+
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Diseño UI</a>
+                        <a href="#" class="portfolio__category">Diseño UI</a>
+                    </div>
+                    <img src="assets/img/Nintendo 64 Zelda.jpg" alt="" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>The Legend Of Zelda, Proyecto</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#diseñoui</span>
+                        <span>#web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/01-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div data-category="maquetado-web" class="portfolio__card">
+
+                <div class="portfolio__featured">
+
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Maquetado Web</a>
+                    </div>
+                    <img src="assets/img/ejemplo.jpg" alt="" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Titular del Proyecto, puede ser largo</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#diseñoui</span>
+                        <span>#web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/02-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div data-category="frontend" class="portfolio__card">
+
+                <div class="portfolio__featured">
+
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Frontend</a>
+                    </div>
+                    <img src="assets/img/Mi galeria.png" alt="" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Mi Galeria         </h4>
+                    <div class="portfolio__hashtags">
+                        <span>#diseñoui</span>
+                        <span>#web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="assets/projects/03-project/" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div data-category="motion" class="portfolio__card">
+
+                <div class="portfolio__featured">
+
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Motion Graphics</a>
+                    </div>
+                    <img src="assets/img/ejemplo.jpg" alt="" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Titular del Proyecto, puede ser largo</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#diseñoui</span>
+                        <span>#web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div data-category="diseno-ui motion" class="portfolio__card">
+
+                <div class="portfolio__featured">
+
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Diseño UI</a>
+                        <a href="#" class="portfolio__category">Motion Graphics</a>
+                    </div>
+                    <img src="assets/img/ejemplo.jpg" alt="" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Titular del Proyecto, puede ser largo</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#diseñoui</span>
+                        <span>#web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div data-category="maquetado-web frontend" class="portfolio__card">
+
+                <div class="portfolio__featured">
+
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Maquetado Web</a>
+                        <a href="#" class="portfolio__category">Frontend</a>
+                    </div>
+                    <img src="assets/img/ejemplo.jpg" alt="" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Titular del Proyecto, puede ser largo</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#diseñoui</span>
+                        <span>#web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div data-category="frontend" class="portfolio__card">
+
+                <div class="portfolio__featured">
+
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Frontend</a>
+                    </div>
+                    <img src="assets/img/ejemplo.jpg" alt="" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Titular del Proyecto, puede ser largo</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#diseñoui</span>
+                        <span>#web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div data-category="motion diseño-ui" class="portfolio__card">
+
+                <div class="portfolio__featured">
+
+                    <div class="portfolio__categories">
+                        <a href="#" class="portfolio__category">Motion Graphics</a>
+                        <a href="#" class="portfolio__category">Diseño UI</a>
+                    </div>
+                    <img src="assets/img/ejemplo.jpg" alt="" class="portfolio__img">
+
+                </div>
+
+                <div class="portfolio__info">
+                    <h4>Titular del Proyecto, puede ser largo</h4>
+                    <div class="portfolio__hashtags">
+                        <span>#diseñoui</span>
+                        <span>#web</span>
+                        <span>#html</span>
+                        <span>#css</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__cta">
+                    <a href="" class="button portfolio__btn">
+                        Ver Portafolio
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copy">
+            &copy; Todos los derechos reservados - <b>Renato Avila 2025</b>
+        </p>
+    </footer>
+</body>
+</html>
